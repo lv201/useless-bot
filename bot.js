@@ -4,9 +4,11 @@ function answerQuery(query) {
     return "I do not care too much about weather, I'm locked inside a data center.";
   if (query.indexOf("tea") != -1 || query.indexOf("biscuits") != -1)
 	return "I do love a nice cuppa with a biccy. Proper nooice!";
+  if (query.indexOf("football") != -1)
+    return "I do not care too much about footie.";
   return "Sorry Dave, I cannot do that."
 }
-
+//comment
 
 function handleSayClick() {
   // We first get the 'message' that the user entered and 'conversation' element
