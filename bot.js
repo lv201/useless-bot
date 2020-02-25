@@ -6,7 +6,7 @@ function answerQuery(query) {
     return "I do not care too much about footie.";
   return "Sorry Dave, I cannot do that."
 }
-
+//comment
 
 function handleSayClick() {
   // We first get the 'message' that the user entered and 'conversation' element
